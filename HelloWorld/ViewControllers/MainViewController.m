@@ -8,7 +8,7 @@
 
 #import "MainViewController.h"
 
-@interface MainViewController ()
+@interface MainViewController () <UITextFieldDelegate>
 
 @property (nonatomic, strong) UITextField * mainTextField;
 @property (nonatomic, strong) UIButton * updateButton;
